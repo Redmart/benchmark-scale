@@ -1,0 +1,25 @@
+config:
+  target: "http://scale2017-app.redmart.com"
+  phases:
+    - duration: 1
+      arrivalRate: .5
+  defaults:
+    headers:
+      UserName: 'PickerService'
+      Warehouse: 'RedMart SG'
+      Environment: 'ILS2017'
+      Content-Type: 'application/json'
+      Accept: 'application/json'
+      Session: 'PickerService:::en-SG:'
+scenarios:
+  - flow:
+    - post:
+        url: "/general/scaleapi/workInstructionsApi/workInstructions-confirmed"
+        json:
+            [
+              {
+                "InternalInstructionNumber": 50040177,
+                "QuantityConfirmed": 0,
+                "PickType": 0
+              }
+            ]

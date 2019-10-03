@@ -1,0 +1,38 @@
+{
+	"inventoryTransactions": [
+		{
+			"adjustmentType": "InvTransferWork",
+			"company": "RedMart",
+			"expirationDate": "",
+			"fromLocation": "rubbish",
+			"fromWarehouse": "RedMart SG",
+			"inventoryStatus": "Available",
+			"item": "rubbish",
+			"logisticsUnit": null,
+			"lot": "rubbish",
+			"lotAttributes": null,
+			"numberOfSlotUnits": 0,
+			"parentLogisticsUnit": null,
+			"quantity": 1,
+			"quantityUM": "CS",
+			"referenceID": 0,
+			"slottingMoveSequence": 0,
+			"slottingPalletHI": 0,
+			"toLocation": "rubbish",
+			"toLogisticsUnit": "",
+			"toWarehouse": "RedMart SG",
+			"userDefinedField1": "something",
+			"userDefinedField2": "something",
+			"userDefinedField3": null,
+			"userDefinedField4": null,
+			"userDefinedField5": null,
+			"userDefinedField6": null,
+			"userDefinedField7": 0,
+			"userDefinedField8": 0
+		}
+	],
+	"adjustInventory": true,
+	"transactionSource": 0,
+	"transactionType": "1",
+	"workCreationMode": "1"
+}

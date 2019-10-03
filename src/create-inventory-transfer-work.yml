@@ -1,0 +1,16 @@
+config:
+  target: "http://scale2017-app.redmart.com"
+  phases:
+    - duration: 1000
+      arrivalRate: .5
+  defaults:
+    headers:
+      UserName: 'PickerService'
+      Content-Type: 'application/json'
+      Accept: 'application/json'
+scenarios:
+  - flow:
+    - post:
+        url: "/Inventory/InventoryTransactions/inventoryTransactions"
+        json: 
+          path: "create-inventory-transfer-work-request-body.json"

@@ -1,0 +1,16 @@
+{
+  "name": "benchmark-scale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-inventory-transfer-work-benchmark": "DEBUG=http* node_modules/artillery/bin/artillery run ./src/create-inventory-transfer-work.yml &> create-inventory-transfer-work-log.log",
+    "confirm-inventory-transfer-work-benchmark": "DEBUG=http* node_modules/artillery/bin/artillery run ./src/confirm-inventory-transfer-work.yml &> confirm-inventory-transfer-work-log.log"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^1.6.0-29"
+  }
+}
