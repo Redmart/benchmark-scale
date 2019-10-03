@@ -1,6 +1,6 @@
 # benchmark-scale
 
-Uses `artillery` to run simple benchmarks 
+Uses `artillery` to run simple benchmarks for SCALE API (initially with slotting in mind).
 
 ## Quick Start
 
